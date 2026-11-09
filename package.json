@@ -1,0 +1,31 @@
+{
+  "name": "meme-city",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "export": "STATIC_EXPORT=1 next build"
+  },
+  "dependencies": {
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "^0.180.0",
+    "@react-three/fiber": "^9.4.0",
+    "@react-three/drei": "^10.7.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.180.0",
+    "@types/node": "^22",
+    "@types/bun": "latest"
+  },
+  "packageManager": "bun@1.4.2"
+}
